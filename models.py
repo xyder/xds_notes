@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer
-from xds_server.core.database import Base
-from xds_server.core.lib import get_custom_prefixer
-from xds_server_apps.xds_notes import APP_NAME
+from core.database import Base
+from core.lib import get_custom_prefixer
+from xds_notes import APP_NAME
 
 prefixer = get_custom_prefixer(APP_NAME)
 
